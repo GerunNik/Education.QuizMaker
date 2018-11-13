@@ -39,7 +39,7 @@ namespace QuizMaker
 
             if (QuestionList.Count < amountOfQuestions)
             {
-                amountOfQuestions = QuestionList.Count;
+                amountOfQuestions = QuestionList.Count - 1;
             }
             TotalQuestions = amountOfQuestions;
             while (amountOfQuestions > 0)
